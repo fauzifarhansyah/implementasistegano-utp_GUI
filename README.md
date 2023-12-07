@@ -1,15 +1,17 @@
-# implementasi_Stegano-utp-dengan-tampilan GUI
+#implementasi_Stegano-utp-dengan-tampilan GUI
+
 Implementasi Stegano dan OTP (One Time Path) dengan tampilan GUI ini merupakan salah satu untuk memenuhi tugas Mata Kuliah Kriptografi
 
-# langkah pertama: kita harus siapkan tools
+langkah pertama: kita harus siapkan tools
  1. Visual Studio Code
  2. install Stegano, tk, dan pillow di cmd!
 
-    Contoh : 1.![pillow](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/a0f1ca13-6ad3-469a-b639-8e3cb91289b6)
-             2.![tk](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/4ef28ca1-0b45-4c1d-bf08-f48b3eca3ff4)
-             3.![stegano](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/802cef94-3322-4aa4-855b-a67b8935f001)
+    Contoh : ![pillow](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/a0f1ca13-6ad3-469a-b639-8e3cb91289b6)
+             ![tk](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/4ef28ca1-0b45-4c1d-bf08-f48b3eca3ff4)
+             ![stegano](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/802cef94-3322-4aa4-855b-a67b8935f001)
 
 #langkah kedua: adalah lakukan source code seperti file steganografi.py
+
 '''python
 import tkinter as tk
 from tkinter import filedialog
@@ -107,14 +109,18 @@ result_label.pack()
 root.mainloop()
 '''
 
+
 lalu jalankan source code kemudian akan muncul tampilan GUI
 
 ![1](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/70773724-5490-4468-8103-6007958bc271)
-# langkah ketiga: isilah plainteks dan key, dan pilih gambar dengan select image
+
+ langkah ketiga: isilah plainteks dan key, dan pilih gambar dengan select image
 
 ![2](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/10dabad9-ce7f-43e7-b5c8-8daff64177c2)
-#langkah keempat: lakukan encrypt dan descript sehingga akan muncul pilihan save image seperti diatas ini:
-lalu simpan image dengan nama sesuai keinginan, contoh seperti di gambar diatas: "basket1 & basket2" 
+
+langkah keempat: lakukan encrypt dan descript sehingga akan muncul pilihan save image seperti diatas ini:
+lalu simpan image dengan nama sesuai keinginan, contoh seperti di gambar diatas: "basket1 & basket2"
+ 
 
 ![3](https://github.com/fauzifarhansyah/implementasistegano-utp_GUI/assets/127401431/d345c217-5536-496b-ad17-3ff0c8fdd292)
 #selanjutnya silakan periksa apakah sudah sukses melakukan encript seperti tulisan dibagian bawah gambar.
